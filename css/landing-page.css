@@ -22,10 +22,10 @@ header.masthead {
   position: relative;
   background-color: #343a40;
   background: url("../img/toto.jpg") no-repeat center center;
-/*  background: url("../img/bg-masthead.jpg") no-repeat center center;*/
   background-size: cover;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 header.masthead .overlay {
@@ -122,11 +122,28 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+.green {
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+.green-future {
+	background: url("../img/toto.jpg") no-repeat center center;
+}
+
+.slogan-future {
+	padding: 5rem;
+}
+
 .footer {
   background-color: #bdc3c7;
 }
 
 footer.footer {
-  padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+img {
+	margin-top: 0;
+	margin-bottom: 2rem;
 }
