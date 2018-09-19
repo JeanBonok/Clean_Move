@@ -18,10 +18,16 @@ h6 {
   font-weight: 700;
 }
 
+.clean {
+	text-align: left;
+	padding: 0;
+	margin-left: 0;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/toto.jpg") no-repeat center center;
+  background: url("../img/main.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 4rem;
   padding-bottom: 4rem;
