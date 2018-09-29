@@ -129,7 +129,7 @@ header.masthead h1 {
 }
 
 .concept {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .green {
@@ -141,8 +141,6 @@ header.masthead h1 {
 	background: url("../img/florencia-viadana.jpg") no-repeat;
   background-size: cover;
   min-height: 40rem;
-/*  background-position: center;*/
-
 }
 
 .slogan-future {
@@ -154,6 +152,7 @@ header.masthead h1 {
 }
 
 footer.footer {
+  padding-top: 2rem;
   padding-bottom: 4rem;
 }
 
