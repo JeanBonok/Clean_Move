@@ -24,15 +24,22 @@ h6 {
 	margin-left: 0;
 }
 
-/* Index page */
+/* how-to path */
+.smartphone-lady {
+  background: url("../img/smartphone-lady.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+  margin: 0;
+}
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/main.jpg") no-repeat center center;
+  background: url("../img/joseph-gruenthal-985586-unsplash.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   margin-bottom: 0;
 }
 
@@ -44,6 +51,7 @@ header.masthead .overlay {
   top: 0;
   left: 0;
   opacity: 0.3;
+  margin-bottom: 0;
 }
 
 header.masthead h1 {
@@ -52,18 +60,13 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
 }
-
-/* How-to page */
-
-
-/* All pages*/
 
 .showcase .showcase-text {
   padding: 3rem;
