@@ -4,8 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+html, body {
+ overflow-x: hidden;
+}
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #F8F9FA;
 }
 
 h1,
@@ -24,12 +29,45 @@ h6 {
 	margin-left: 0;
 }
 
+.container-full {
+  width: 100%;
+}
+
 /* how-to path */
+
 .smartphone-lady {
   background: url("../img/smartphone-lady.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 13rem;
-  padding-bottom: 13rem;
+  padding: 12rem 0;
+  margin: 0;
+}
+
+.general-speech {
+  padding: 2rem;
+  margin: 0;
+}
+
+.reservation-speech {
+  background-color: #f1c40f;
+}
+
+.reservation-speech h1 {
+  text-align: left;
+}
+
+.tasting-speech {
+  background-color: #e67e22;
+}
+
+.tasting-speech h1 {
+  text-align: right;
+}
+
+.coffee-start-up {
+  background: url("../img/coffee-start-up.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   margin: 0;
 }
 
@@ -40,7 +78,7 @@ header.masthead {
   background-size: cover;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 header.masthead .overlay {
