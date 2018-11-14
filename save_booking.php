@@ -10,7 +10,7 @@ function data_to_file($data, $file) {
 
 data_to_file($_GET, "./toto_la_malice");
 
-header("Location: index.html");
+header("Location: localhost:8080/index.html");
 $test = "<h2>Mais WTF</h2>";
 echo $test;
 var_dump($_GET);
