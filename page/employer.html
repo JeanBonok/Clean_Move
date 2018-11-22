@@ -92,7 +92,39 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-        <h1>Ici il y aura le formulaire, il va être très canon</h1>
+          <form id="employer" action="../form/employer.php" method="POST">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputName">Nom</label>
+                <input type="text" class="form-control" name="inputName" placeholder="Nom">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputFirstName">Prénom</label>
+                <input type="text" class="form-control" name="inputFirstName" placeholder="Prénom">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputSociety">Entreprise</label>
+              <input type="text" class="form-control" name="inputSociety" placeholder="Entreprise">
+            </div>
+            <div class="form-group">
+              <label for="inputWorkplace">Lieu de travail</label>
+              <input type="text" class="form-control" name="inputWorkplace" placeholder="Où travaillez-vous ?">
+            </div>
+            <div class="form-group">
+              <label for="inputLifeplace">Lieu de résidence</label>
+              <input type="text" class="form-control" name="inputLifeplace" placeholder="Où vivez-vous ?">
+            </div>
+            <div class="form-group">
+              <label for="InputEmail">Adresse Email</label>
+              <input type="email" class="form-control" name="InputEmail" aria-describedby="emailHelp" placeholder="Entrez votre Email">
+              <small id="emailHelp" class="form-text text-muted">Nous ne partagerons votre contact avec personne.</small>
+            </div>
+            <p>
+              En validant ce formulaire j'indique mon intérêt pour la solution EASEL.
+            </p>
+            <input type="submit" class="btn btn-primary"></input>
+          </form>
         </div>
       </div>
     </div>
