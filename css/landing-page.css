@@ -24,6 +24,10 @@ a {
   color: #ffffff;
 }
 
+.text-easel-color {
+  color: #14181F;
+}
+
 #brand {
   font-family: 'Avenir', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -83,7 +87,7 @@ header.masthead h1 {
 
 .caption {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 0;
     width: 100%;
 }
@@ -106,8 +110,8 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .features-icons .features-icons-item {
@@ -158,25 +162,6 @@ header.masthead h1 {
   top: 0;
   left: 0;
   opacity: 0.3;
-}
-
-.concept {
-  margin-top: 2rem;
-}
-
-.green {
-	margin-top: 2rem;
-	margin-bottom: 0;
-}
-
-.green-future {
-	background: url("../img/florencia-viadana.jpg") no-repeat;
-  background-size: cover;
-  min-height: 40rem;
-}
-
-.slogan-future {
-	padding: 5rem;
 }
 
 .footer {
