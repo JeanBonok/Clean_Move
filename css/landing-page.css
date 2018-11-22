@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #F8F9FA;
 }
 
 h1,
@@ -18,21 +19,35 @@ h6 {
   font-weight: 700;
 }
 
-.clean {
-	text-align: left;
-	padding: 0;
-	margin-left: 0;
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#brand {
+  font-family: 'Avenir', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Navbar */
+
+#logo {
+  max-height:3rem;
+  margin: 1rem 0;
+}
+
+.navbar-light {
+  background-color: #ecf0f1;
 }
 
 /* Index page */
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/main.jpg") no-repeat center center;
+  background-color: #fa1700;
+  background: url("../img/joseph-gruenthal-985586-unsplash.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   margin-bottom: 0;
 }
 
@@ -52,16 +67,26 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
 }
 
-/* How-to page */
+/* Thumbnails */
 
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
 
 /* All pages*/
 
@@ -155,7 +180,7 @@ header.masthead h1 {
 }
 
 .footer {
-  background-color: #bdc3c7;
+  background-color: #14181F;
 }
 
 footer.footer {
